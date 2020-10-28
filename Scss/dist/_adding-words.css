@@ -1,0 +1,64 @@
+.adding_word-ladybird {
+  position: absolute;
+  left: 21.5rem;
+  top: 1.5rem;
+  z-index: 30;
+}
+.adding_word-card {
+  display: flex;
+  justify-content: center;
+}
+.adding_word-card_item {
+  padding: 30px 80px;
+}
+.adding_word-span {
+  font-family: "HelveticaNeue";
+  font-size: 14px;
+}
+.adding_word-span-second {
+  font-family: "HelveticaNeue";
+  font-size: 10px;
+  justify-content: center;
+  display: flex;
+  padding-top: 20px;
+  color: #DC6C85;
+}
+.adding_word-title_active {
+  position: absolute;
+  margin: 38px auto 0;
+  left: 0;
+  right: 0;
+  border-bottom: 2px solid #f7cf43;
+  width: 14%;
+}
+.adding_word-add {
+  width: 40px;
+  height: 40px;
+}
+.adding_word-input_text {
+  padding-right: calc(calc(0.75em - -90px) + 0.375em) !important;
+  font-family: "HelveticaNeue";
+  font-size: 14px;
+  margin-left: 1em;
+}
+.adding_word-textarea_content {
+  width: 68%;
+}
+.adding_word-textarea_content textarea {
+  font-size: 0.875rem;
+  border-radius: 1rem;
+  margin-left: 1rem;
+  font-family: "HelveticaNeue";
+  font-size: 14px;
+}
+.adding_word-warning {
+  border-color: transparent !important;
+  box-shadow: 2px 2px 8px rgba(247, 207, 67, 0.5);
+}
+.adding_word-danger {
+  border-color: transparent !important;
+  box-shadow: 2px 2px 8px rgba(220, 108, 133, 0.5);
+}
+.adding_word-edit button:hover {
+  color: #fff !important;
+}

@@ -1,0 +1,92 @@
+/*
+    Flaticon icon font: Flaticon
+    Creation date: 02/10/2020 19:42
+    */
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./fonts/Flaticon.eot");
+  src: url("./fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Flaticon.woff2") format("woff2"),
+    url("./fonts/Flaticon.woff") format("woff"),
+    url("./fonts/Flaticon.ttf") format("truetype"),
+    url("./fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+.fi:before {
+  display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.user:before {
+  content: "\f100";
+}
+.in:before {
+  content: "\f101";
+}
+.fb:before {
+  content: "\f102";
+}
+.tw:before {
+  content: "\f103";
+}
+.info:before {
+  content: "\f104";
+}
+.global:before {
+  content: "\f105";
+}
+.share:before {
+  content: "\f106";
+}
+.plus:before {
+  content: "\f107";
+}
+.clock:before {
+  content: "\f108";
+}
+.edit:before {
+  content: "\f109";
+}
+.checked:before {
+  content: "\f10a";
+}
+.eye:before {
+  content: "\f10b";
+}
+.block:before {
+  content: "\f10c";
+}
+
+$font-user: "\f100";
+$font-in: "\f101";
+$font-fb: "\f102";
+$font-tw: "\f103";
+$font-info: "\f104";
+$font-global: "\f105";
+$font-share: "\f106";
+$font-plus: "\f107";
+$font-clock: "\f108";
+$font-edit: "\f109";
+$font-checked: "\f10a";
+$font-eye: "\f10b";
+$font-block: "\f10c";

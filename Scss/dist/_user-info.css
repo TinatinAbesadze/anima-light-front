@@ -1,0 +1,43 @@
+.user-card-item-top {
+  padding-top: 35px;
+}
+
+.user-card-item {
+  padding-top: 20px;
+}
+
+.bee {
+  position: absolute;
+  right: 10rem;
+  top: -4rem;
+  z-index: 30;
+}
+
+.user-ladybird {
+  position: absolute;
+  left: 17.5rem;
+  top: 2.5rem;
+  z-index: 30;
+}
+
+.user-edit {
+  position: relative;
+  left: 50rem;
+  top: 7rem;
+  z-index: 99;
+}
+
+.fa-clock-content {
+  height: 20px;
+  width: 20px;
+  margin: 0.2rem 0.3rem 0.2rem 0.1rem;
+  font-size: 20.67px !important;
+  color: #60B5B6;
+}
+
+.input-style {
+  width: 700px;
+  font-size: 14px;
+  height: 100px;
+  padding-left: 50px !important;
+}
