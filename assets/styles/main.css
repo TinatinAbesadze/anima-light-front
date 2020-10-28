@@ -8953,7 +8953,12 @@ a.text-dark:focus, a.text-dark:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 10px 0;
+  padding: 20px 0;
+}
+
+.web_logo {
+  max-height: 54px;
+  height: 7vh;
 }
 
 .web_navigation-list {
@@ -8964,6 +8969,7 @@ a.text-dark:focus, a.text-dark:hover {
       -ms-flex-align: center;
           align-items: center;
   margin: 0;
+  padding: 0;
 }
 
 .web_navigation-item {
@@ -8975,6 +8981,12 @@ a.text-dark:focus, a.text-dark:hover {
   margin-right: 0;
 }
 
+@media only screen and (max-width: 767px) {
+  .web_navigation-item {
+    margin-right: 10px;
+  }
+}
+
 .web_navigation-item-link {
   text-decoration: none;
   color: #FFFFFF;
@@ -8982,6 +8994,13 @@ a.text-dark:focus, a.text-dark:hover {
   font-family: "ALK Sanet";
   -webkit-transition: all .3s;
   transition: all .3s;
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 767px) {
+  .web_navigation-item-link {
+    font-size: 12px;
+  }
 }
 
 .web_navigation-item-link.active {

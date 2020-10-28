@@ -3,13 +3,18 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 10px 0;
+        padding: 20px 0;
+    }
+    &_logo{
+        max-height: 54px;
+        height: 7vh;
     }
     &_navigation{
         &-list{
             display: flex;
             align-items: center;
             margin: 0;
+            padding: 0;
         }
         &-item{
             list-style-type: none;
@@ -17,12 +22,19 @@
             &:last-child{
                 margin-right: 0;
             }
+            @media #{$breakpoint-md}{
+                margin-right: 10px;
+            }
             &-link{
                 text-decoration: none;
                 color: $white;
                 font-size: 16px;
                 font-family: $ALKSanetfont;
                 transition: all .3s;
+                white-space: nowrap;
+                @media #{$breakpoint-md}{
+                    font-size: 12px;
+                }
                 &.active{
                     color: $component-color1;
                 }
