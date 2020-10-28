@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAP,sFAAO;AEGP,UAAU;EACN,WAAW,EAAE,WAAW;EACxB,GAAG,EAAE,oCAAoC;EACzC,sBAAsB;EACtB,GAAG,EAAE,2CAA2C,CAAC,2BAA2B,EAE1E,sCAAsC,CAAC,eAAe,EAEtD,qCAAqC,CAAC,cAAc,EAEpD,oCAAoC,CAAC,kBAAkB,EAEvD,qDAAqD,CAAC,aAAa;EACrE,gBAAgB;;;AAGlB,UAAU;EACR,WAAW,EAAE,YAAY;EACzB,GAAG,EAAE,wCAAwC;EAC7C,GAAG,EAAE,uCAAuC,EAAE,mBAAmB,EAC7D,+CAA+C,CAAC,2BAA2B,EAC3E,0CAA0C,CAAC,eAAe,EAC1D,yCAAyC,CAAC,cAAc,EACxD,wCAAwC,CAAC,kBAAkB,EAC3D,mDAAmD,CAAC,aAAa;EACrE,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,MAAM",
+    "sources": [
+        "main.scss",
+        "theme/_color.scss",
+        "theme/_fonts.scss",
+        "partials/_header.scss",
+        "partials/_footer.scss",
+        "pages/_mainPage.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
