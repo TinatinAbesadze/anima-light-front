@@ -8928,17 +8928,17 @@ a.text-dark:focus, a.text-dark:hover {
 }
 
 @font-face {
-  font-family: 'ALK Sanet';
-  src: url("./fonts/alk-sanet-webfont.eot");
-  /* IE9 Compat Modes */
-  src: url("./fonts/alk-sanet-webfont.eot?#iefix") format("embedded-opentype"), url("./fonts/alk-sanet-webfont.woff2") format("woff2"), url("./fonts/alk-sanet-webfont.woff") format("woff"), url("./fonts/alk-sanet-webfont.ttf") format("truetype"), url("./fonts/alk-sanet-webfont.svg#alk_sanetregular") format("svg");
-  /* Legacy iOS */
+  font-family: "ALKSanet";
+  src: url("../fonts/ALKSanet.eot");
+  src: url("../fonts/ALKSanet.eot?#iefix") format("embedded-opentype"), url("../fonts/ALKSanet.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: 'DejaVuSans';
-  src: url("./fonts/dejaVuSans/DejaVuSans.eot");
-  src: local("./fonts/dejaVuSans/DejaVu Sans"), local("DejaVuSans"), url("./fonts/dejaVuSans/DejaVuSans.eot?#iefix") format("embedded-opentype"), url("./fonts/dejaVuSans/DejaVuSans.woff2") format("woff2"), url("./fonts/dejaVuSans/DejaVuSans.woff") format("woff"), url("./fonts/dejaVuSans/DejaVuSans.ttf") format("truetype"), url("./fonts/dejaVuSans/DejaVuSans.svg#DejaVuSans") format("svg");
+  font-family: "DejaVuSans";
+  src: url("../fonts/DejaVuSans.eot");
+  src: url("../fonts/DejaVuSans.eot?#iefix") format("embedded-opentype"), url("../fonts/DejaVuSans.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -8991,7 +8991,7 @@ a.text-dark:focus, a.text-dark:hover {
   text-decoration: none;
   color: #FFFFFF;
   font-size: 16px;
-  font-family: "ALK Sanet";
+  font-family: "ALKSanet";
   -webkit-transition: all .3s;
   transition: all .3s;
   white-space: nowrap;
