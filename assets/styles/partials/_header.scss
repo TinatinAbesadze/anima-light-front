@@ -1,0 +1,55 @@
+.web{
+    &_header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0;
+    }
+    &_navigation{
+        &-list{
+            display: flex;
+            align-items: center;
+            margin: 0;
+        }
+        &-item{
+            list-style-type: none;
+            margin-right: 80px;
+            &:last-child{
+                margin-right: 0;
+            }
+            &-link{
+                text-decoration: none;
+                color: $white;
+                font-size: 16px;
+                font-family: $ALKSanetfont;
+                transition: all .3s;
+                &.active{
+                    color: $component-color1;
+                }
+                &:hover{
+                    text-decoration: none;
+                    color: $component-color1;
+                }
+                .logIn-icon{
+                    width: 42px;
+                    height: 42px;
+                    &-bg{
+                        transition: .3s;
+                    }
+                    &-content{
+                        transition: .3s;
+                    }
+                    &:hover{
+                        transition: .3s;
+                        .logIn-icon-bg{
+                            fill: $component-color1;
+                        }
+                        .logIn-icon-content{
+                            fill: $white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

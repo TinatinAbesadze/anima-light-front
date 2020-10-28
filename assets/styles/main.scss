@@ -1,6 +1,8 @@
-@import "./bootstrap.min.css";
+@import "bootstrap.min";
 @import "./theme/color";
 @import "./theme/fonts";
+@import "./theme/responsive";
 @import "./partials/header";
 @import "./partials/footer";
+@import "./pages/global";
 @import "./pages/mainPage";
