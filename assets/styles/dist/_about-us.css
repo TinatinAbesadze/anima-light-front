@@ -1,0 +1,92 @@
+.about-project {
+  font-family: "ALKSanet";
+  font-size: 18px;
+  position: relative;
+  right: 5em;
+}
+
+.about-project p {
+  font-family: "DejaVu Sans";
+  margin-top: 1em;
+  color: #E3FDFF;
+}
+
+.video {
+  position: relative;
+}
+
+.play {
+  position: absolute;
+  bottom: 10em;
+  right: 14em;
+}
+
+.link {
+  color: #7FD1D8;
+}
+
+.tutorial {
+  position: absolute;
+  right: 6rem;
+  font-family: "ALKSanet";
+  top: 22.5rem;
+  font-size: 12px;
+}
+
+.chatbots {
+  margin-top: 2em;
+  margin-right: 7em;
+}
+
+.name-container {
+  margin-top: 1em;
+}
+
+.name {
+  margin-left: 10px;
+  font-family: "DejaVu Sans";
+}
+
+.btn {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.anima-button {
+  width: 342px;
+  height: 36px;
+  box-shadow: 2px 2px 8px #7FD1D8;
+  border-radius: 15px;
+  border-radius: 290486px;
+  padding-left: calc(1em + 0.25em);
+  padding-right: calc(1em + 0.25em);
+  color: white;
+  background: #242526;
+  margin-top: 3em;
+  font-family: "ALKSanet";
+}
+
+.speak {
+  margin-top: 1.5em;
+}
+
+.speak-button {
+  width: 156px;
+  height: 34px;
+  box-shadow: 2px 2px 8px #7FD1D8;
+  border-radius: 15px;
+  border-radius: 290486px;
+  padding-left: calc(1em + 0.25em);
+  padding-right: calc(1em + 0.25em);
+  color: #7FD1D8;
+  background: #242526;
+  font-size: 14px;
+  font-family: "ALKSanet";
+  cursor: pointer;
+}
+
+.speak-button:hover {
+  background: #7FD1D8;
+  color: #fffF;
+  cursor: pointer;
+}
