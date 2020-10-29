@@ -9090,7 +9090,7 @@ body {
 }
 
 .name {
-  margin-left: 10px;
+  margin-left: 15px;
   font-family: 'DejaVu Sans';
 }
 
@@ -9138,6 +9138,11 @@ body {
   background: #7FD1D8;
   color: #fffF;
   cursor: pointer;
+}
+
+.box-text {
+  display: block;
+  color: white;
 }
 
 .absolute {
