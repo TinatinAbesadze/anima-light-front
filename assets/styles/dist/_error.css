@@ -1,0 +1,52 @@
+.absolute {
+  position: absolute;
+}
+
+.error {
+  position: absolute;
+  left: 27rem;
+  top: 12rem;
+}
+
+.text-section {
+  top: 60vh;
+  left: 60vh;
+}
+
+.error-subtitle {
+  font-family: "DejaVu Sans";
+  top: 2rem;
+  right: 1rem;
+  position: relative;
+}
+
+.fly-error {
+  left: 62vh;
+  bottom: 20vh;
+  width: 60px;
+  height: 52px;
+}
+
+.error-button {
+  width: 156px;
+  height: 34px;
+  box-shadow: 2px 2px 8px #7FD1D8;
+  border-radius: 15px;
+  border-radius: 290486px;
+  padding-left: calc(1em + 0.25em);
+  padding-right: calc(1em + 0.25em);
+  color: #7FD1D8;
+  background: #242526;
+  font-size: 14px;
+  font-family: "ALKSanet";
+  cursor: pointer;
+  position: relative;
+  left: 38rem;
+  top: 36rem;
+}
+
+.error-button:hover {
+  background: #7FD1D8;
+  color: #fffF;
+  cursor: pointer;
+}
