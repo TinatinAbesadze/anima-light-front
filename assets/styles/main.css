@@ -9051,7 +9051,7 @@ a.text-dark:focus, a.text-dark:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 20px 0;
+  padding: 40px 0;
   color: #FFFFFF;
 }
 
@@ -9068,6 +9068,12 @@ a.text-dark:focus, a.text-dark:hover {
   color: #C5CBCD;
   font-family: "DejaVuSans";
   font-size: 16px;
+  text-decoration: none;
+}
+
+.web__footer-text:hover {
+  text-decoration: none;
+  color: #7FD1D8;
 }
 
 .web__footer-icon {
@@ -9087,12 +9093,29 @@ a.text-dark:focus, a.text-dark:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  text-decoration: none;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 @media only screen and (max-width: 768px) {
   .web__footer-icon {
     margin: 10px;
   }
+}
+
+.web__footer-icon:hover {
+  border: 1px solid #7FD1D8;
+  -webkit-box-shadow: 0px 1px 3px 1px #7FD1D8;
+          box-shadow: 0px 1px 3px 1px #7FD1D8;
+}
+
+.web__footer-icon-link {
+  text-decoration: none;
+}
+
+.web__footer-icon-link:hover {
+  text-decoration: none;
 }
 
 body {
