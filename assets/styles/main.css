@@ -9332,6 +9332,10 @@ body {
   color: white;
 }
 
+.footer {
+  margin-top: 10vh;
+}
+
 .absolute {
   position: absolute;
 }
