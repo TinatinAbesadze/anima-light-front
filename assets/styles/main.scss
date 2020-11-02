@@ -1,10 +1,11 @@
 @import "bootstrap.min";
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
 @import "./theme/color";
 @import "./theme/fonts";
 @import "./theme/responsive";
 @import "./partials/header";
 @import "./partials/footer";
 @import "./pages/global";
-@import "./pages/mainPage";
+@import "./mainPage";
 @import "./about-us";
 @import "./error";

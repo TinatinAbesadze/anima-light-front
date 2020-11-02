@@ -4,6 +4,7 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
 :root {
   --blue:#007bff;
   --indigo:#6610f2;
@@ -8981,7 +8982,7 @@ a.text-dark:focus, a.text-dark:hover {
   margin-right: 0;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .web_navigation-item {
     margin-right: 10px;
   }
@@ -8997,7 +8998,7 @@ a.text-dark:focus, a.text-dark:hover {
   white-space: nowrap;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .web_navigation-item-link {
     font-size: 12px;
   }
@@ -9040,9 +9041,67 @@ a.text-dark:focus, a.text-dark:hover {
   fill: #FFFFFF;
 }
 
+.web__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0;
+  color: #FFFFFF;
+}
+
+@media only screen and (max-width: 768px) {
+  .web__footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+.web__footer-text {
+  color: #C5CBCD;
+  font-family: "DejaVuSans";
+  font-size: 16px;
+}
+
+.web__footer-icon {
+  color: #FFFFFF;
+  margin: 0 10px;
+  font-size: 16px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .web__footer-icon {
+    margin: 10px;
+  }
+}
+
 body {
   background-color: #17191A;
   color: white;
+}
+
+.web__main {
+  min-height: 100vh;
 }
 
 .main_page-top_info_cont {
@@ -9149,6 +9208,7 @@ body {
   -webkit-box-shadow: 2px 2px 8px rgba(248, 210, 69, 0.4);
           box-shadow: 2px 2px 8px rgba(248, 210, 69, 0.4);
 }
+
 .about-project {
   font-family: 'ALKSanet';
   font-size: 18px;

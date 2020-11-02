@@ -1,0 +1,32 @@
+.web{
+    &__footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+        color: $white;
+        @media #{$breakpoint-md}{
+            flex-direction: column-reverse;
+        }
+        &-text{
+            color: $component-color4;
+            font-family: $DejaVuSansfont;
+            font-size: 16px;
+        }
+        &-icon{
+            color: $white;
+            margin: 0 10px;
+            font-size: 16px;
+            width: 30px;
+            height: 30px;
+            border: 1px solid #FFFFFF;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            @media #{$breakpoint-md}{
+                margin: 10px;
+            }
+        }
+    }
+}
