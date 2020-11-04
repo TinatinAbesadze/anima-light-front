@@ -9385,4 +9385,67 @@ body {
   color: #fffF;
   cursor: pointer;
 }
+
+.schoolChatbot_section {
+  padding: 100px 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .schoolChatbot_section {
+    padding: 20px 0;
+  }
+}
+
+.schoolChatbot_section-img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+@media only screen and (max-width: 768px) {
+  .schoolChatbot_section-img {
+    width: 70%;
+    display: block;
+    margin: auto;
+  }
+}
+
+.schoolChatbot_section-img-container {
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .schoolChatbot_section-img-container {
+    margin-right: 0;
+  }
+}
+
+.schoolChatbot_section-title {
+  color: #7FD1D8;
+  font-family: "ALKSanet";
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.schoolChatbot_section-text {
+  color: #E3FDFF;
+  font-size: 16px;
+  font-family: "DejaVuSans";
+  margin-bottom: 15px;
+}
+
+.schoolChatbot_section-link {
+  font-size: 16px;
+  color: #7FD1D8;
+  font-family: "DejaVuSans";
+}
+
+.schoolChatbot_section-link-icon {
+  margin-right: 10px;
+}
+
+.schoolChatbot_section-link:hover {
+  color: #66CCCC;
+  text-decoration: none;
+}
 /*# sourceMappingURL=main.css.map */

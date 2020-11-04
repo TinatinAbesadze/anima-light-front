@@ -1,0 +1,45 @@
+.schoolChatbot_section{
+    padding: 100px 0;
+    @media #{$breakpoint-md}{
+        padding: 20px 0;
+    }
+    &-img{
+        width: 100%;
+        object-fit: contain;
+        @media #{$breakpoint-md}{
+            width: 70%;
+            display: block;
+            margin: auto;
+        }
+        &-container{
+            margin-right: 20px;
+            @media #{$breakpoint-md}{
+                margin-right: 0;
+            }
+        }
+    }
+    &-title{
+        color: $component-color1;
+        font-family: $ALKSanetfont;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    &-text{
+        color: $component-color3;
+        font-size: 16px;
+        font-family: $DejaVuSansfont;
+        margin-bottom: 15px;
+    }
+    &-link{
+        font-size: 16px;
+        color: $component-color1;
+        font-family: $DejaVuSansfont;
+        &-icon{
+            margin-right: 10px;
+        }
+        &:hover{
+            color: $component-color7;
+            text-decoration: none;
+        }
+    }
+}
