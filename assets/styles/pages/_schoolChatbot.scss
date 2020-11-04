@@ -1,7 +1,7 @@
 .schoolChatbot_section{
     padding: 100px 0;
     @media #{$breakpoint-md}{
-        padding: 20px 0;
+        padding: 50px 0;
     }
     &-img{
         width: 100%;
@@ -29,6 +29,12 @@
         font-size: 16px;
         font-family: $DejaVuSansfont;
         margin-bottom: 15px;
+        &-delete{
+            color: $white;
+            font-size: 16px;
+            font-family: $DejaVuSansfont;
+            text-align: center;
+        }
     }
     &-link{
         font-size: 16px;
@@ -40,6 +46,35 @@
         &:hover{
             color: $component-color7;
             text-decoration: none;
+        }
+    }
+    &_btn-dark{
+        &-cont{
+            display: flex;
+            @media #{$breakpoint-md}{
+                flex-direction: column;
+            }
+        }
+        background-color: $component-color5;
+        border-radius: 20px;
+        box-shadow: 2px 2px 8px $component-color6;
+        width: 156px;
+        height: 34px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        color: $component-color1;
+        font-size: 14px;
+        font-family: $ALKSanetfont;
+        margin: 20px;
+        transition: .3s;
+        @media #{$breakpoint-md}{
+            margin: 10px 0;
+        }
+        &:hover{
+            background-color: $white;
+            box-shadow: 2px 2px 8px $component-color8;
         }
     }
 }

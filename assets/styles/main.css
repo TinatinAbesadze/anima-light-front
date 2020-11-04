@@ -9392,7 +9392,7 @@ body {
 
 @media only screen and (max-width: 768px) {
   .schoolChatbot_section {
-    padding: 20px 0;
+    padding: 50px 0;
   }
 }
 
@@ -9434,6 +9434,13 @@ body {
   margin-bottom: 15px;
 }
 
+.schoolChatbot_section-text-delete {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: "DejaVuSans";
+  text-align: center;
+}
+
 .schoolChatbot_section-link {
   font-size: 16px;
   color: #7FD1D8;
@@ -9447,5 +9454,57 @@ body {
 .schoolChatbot_section-link:hover {
   color: #66CCCC;
   text-decoration: none;
+}
+
+.schoolChatbot_section_btn-dark {
+  background-color: #242526;
+  border-radius: 20px;
+  -webkit-box-shadow: 2px 2px 8px #7FD1D866;
+          box-shadow: 2px 2px 8px #7FD1D866;
+  width: 156px;
+  height: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  color: #7FD1D8;
+  font-size: 14px;
+  font-family: "ALKSanet";
+  margin: 20px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.schoolChatbot_section_btn-dark-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+  .schoolChatbot_section_btn-dark-cont {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .schoolChatbot_section_btn-dark {
+    margin: 10px 0;
+  }
+}
+
+.schoolChatbot_section_btn-dark:hover {
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 2px 2px 8px #F8D24B;
+          box-shadow: 2px 2px 8px #F8D24B;
 }
 /*# sourceMappingURL=main.css.map */
