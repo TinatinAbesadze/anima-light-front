@@ -1,0 +1,29 @@
+.input-style {
+  box-shadow: 2px 2px 8px #7FD1D8;
+  border-radius: 15px;
+  border-radius: 290486px;
+  padding-left: calc(1em + 0.25em);
+  padding-right: calc(1em + 0.25em);
+  color: #7FD1D8;
+  background: #242526;
+  font-size: 14px;
+  font-family: "ALKSanet";
+  cursor: pointer;
+}
+
+.search-input {
+  border: transparent;
+  background-color: transparent;
+}
+
+.blue-mark {
+  position: absolute;
+  right: 3rem;
+  top: 0.4rem;
+}
+
+.search {
+  position: absolute;
+  right: 5rem;
+  top: 0.4rem;
+}
