@@ -1,0 +1,49 @@
+.web_contact_us-box {
+  padding: 81px 0 0 0;
+}
+.web_contact_us-container {
+  max-width: 37% !important;
+}
+.web_contact_us-title {
+  color: #7FD1D8;
+  font-size: 36px;
+  font-family: ALKSanet;
+  padding-bottom: 1rem;
+}
+.web_contact_us input[type=text], .web_contact_us input[type=email], .web_contact_us textarea {
+  font-family: DejaVuSans;
+  width: 100%;
+  padding: 7px 20px;
+  margin: 13px 0;
+  display: inline-block;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 2rem;
+  color: #fff;
+  background-color: #242526;
+  box-shadow: 2px 2px 8px #7FD1D866;
+  outline: 0 none;
+}
+.web_contact_us input[type=text]::placeholder, .web_contact_us input[type=email]::placeholder, .web_contact_us textarea::placeholder {
+  color: white;
+  font-size: 16px;
+}
+.web_contact_us-submit-send {
+  font-family: ALKSanet;
+  font-size: 14px;
+  color: #7FD1D8;
+  background-color: #242526;
+  box-shadow: 2px 2px 8px #7FD1D866;
+  padding: 5px 35px;
+  float: right;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  outline: 0 none;
+  margin-top: 2rem;
+}
+.web_contact_us-submit-send:hover {
+  color: #fff;
+  background-color: #7FD1D8;
+  text-decoration: none;
+}

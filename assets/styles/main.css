@@ -9625,4 +9625,338 @@ p {
   font-size: 14px;
   padding-left: 2rem;
 }
+
+.web_auth-box {
+  padding: 52px 0 0 0;
+}
+
+.web_auth-container {
+  max-width: 37% !important;
+}
+
+.web_auth-title {
+  font-size: 24px;
+  font-family: ALKSanet;
+  padding-bottom: 1rem;
+}
+
+.web_auth-active {
+  color: #7FD1D8;
+}
+
+.web_auth-login, .web_auth-registration {
+  cursor: pointer;
+}
+
+.web_auth input[type=email], .web_auth input[type=password] {
+  font-family: DejaVuSans;
+  width: 100%;
+  padding: 7px 20px;
+  margin: 13px 0;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  border-radius: 2rem;
+  color: #fff;
+  background-color: #242526;
+  -webkit-box-shadow: 2px 2px 8px #7FD1D866;
+          box-shadow: 2px 2px 8px #7FD1D866;
+  outline: 0 none;
+}
+
+.web_auth input[type=email]::-webkit-input-placeholder, .web_auth input[type=password]::-webkit-input-placeholder {
+  color: white;
+  font-size: 16px;
+}
+
+.web_auth input[type=email]:-ms-input-placeholder, .web_auth input[type=password]:-ms-input-placeholder {
+  color: white;
+  font-size: 16px;
+}
+
+.web_auth input[type=email]::-ms-input-placeholder, .web_auth input[type=password]::-ms-input-placeholder {
+  color: white;
+  font-size: 16px;
+}
+
+.web_auth input[type=email]::placeholder, .web_auth input[type=password]::placeholder {
+  color: white;
+  font-size: 16px;
+}
+
+.web_auth-forgot_psw a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  font-family: DejaVuSans;
+  margin-left: 1.2rem;
+}
+
+.web_auth input[type=submit] {
+  font-family: ALKSanet;
+  font-size: 14px;
+  color: #7FD1D8;
+  background-color: #242526;
+  -webkit-box-shadow: 2px 2px 8px #7FD1D866;
+          box-shadow: 2px 2px 8px #7FD1D866;
+  padding: 5px 35px;
+  float: right;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  outline: 0 none;
+  margin-top: 2rem;
+}
+
+.web_auth input[type=submit]:hover {
+  color: #fff;
+  background-color: #7FD1D8;
+  text-decoration: none;
+}
+
+.mail-error, .mail-error-used, .name-error-used, .name-error, .surename-error, .psw-error, .psw-error-match {
+  display: none;
+}
+
+.error-style {
+  font-size: 12px;
+  color: #DC6C85;
+  margin-left: 1.2rem;
+  margin-top: -6px;
+  margin-bottom: 6px;
+}
+
+.registration {
+  display: none;
+}
+
+.registration input[type=email], .registration input[type=text], .registration input[type=password] {
+  font-family: DejaVuSans;
+  width: 100%;
+  padding: 7px 20px;
+  margin: 13px 0;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  border-radius: 2rem;
+  color: #fff;
+  background-color: #242526;
+  -webkit-box-shadow: 2px 2px 8px #7FD1D866;
+          box-shadow: 2px 2px 8px #7FD1D866;
+  outline: 0 none;
+}
+
+.registration input[type=email]::-webkit-input-placeholder, .registration input[type=text]::-webkit-input-placeholder, .registration input[type=password]::-webkit-input-placeholder {
+  color: white;
+  font-size: 16px;
+}
+
+.registration input[type=email]:-ms-input-placeholder, .registration input[type=text]:-ms-input-placeholder, .registration input[type=password]:-ms-input-placeholder {
+  color: white;
+  font-size: 16px;
+}
+
+.registration input[type=email]::-ms-input-placeholder, .registration input[type=text]::-ms-input-placeholder, .registration input[type=password]::-ms-input-placeholder {
+  color: white;
+  font-size: 16px;
+}
+
+.registration input[type=email]::placeholder, .registration input[type=text]::placeholder, .registration input[type=password]::placeholder {
+  color: white;
+  font-size: 16px;
+}
+
+.registration input[type=submit] {
+  font-family: ALKSanet;
+  font-size: 14px;
+  color: #7FD1D8;
+  background-color: #242526;
+  -webkit-box-shadow: 2px 2px 8px #7FD1D866;
+          box-shadow: 2px 2px 8px #7FD1D866;
+  padding: 5px 35px;
+  float: right;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  outline: 0 none;
+  margin-top: 2rem;
+}
+
+.registration input[type=submit]:hover {
+  color: #fff;
+  background-color: #7FD1D8;
+  text-decoration: none;
+}
+
+.web_password-box {
+  padding: 91px 0 0 0;
+}
+
+.web_password-container {
+  max-width: 37% !important;
+}
+
+.web_password-title {
+  color: #7FD1D8;
+  font-size: 24px;
+  font-family: ALKSanet;
+  padding-bottom: 1rem;
+}
+
+.web_password input[type=email], .web_password input[type=password] {
+  font-family: DejaVuSans;
+  width: 100%;
+  padding: 7px 20px;
+  margin: 13px 0;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  border-radius: 2rem;
+  color: #fff;
+  background-color: #242526;
+  -webkit-box-shadow: 2px 2px 8px #7FD1D866;
+          box-shadow: 2px 2px 8px #7FD1D866;
+  outline: 0 none;
+}
+
+.web_password input[type=email]::-webkit-input-placeholder, .web_password input[type=password]::-webkit-input-placeholder {
+  color: white;
+  font-size: 16px;
+}
+
+.web_password input[type=email]:-ms-input-placeholder, .web_password input[type=password]:-ms-input-placeholder {
+  color: white;
+  font-size: 16px;
+}
+
+.web_password input[type=email]::-ms-input-placeholder, .web_password input[type=password]::-ms-input-placeholder {
+  color: white;
+  font-size: 16px;
+}
+
+.web_password input[type=email]::placeholder, .web_password input[type=password]::placeholder {
+  color: white;
+  font-size: 16px;
+}
+
+.web_password-submit-cancel {
+  font-family: ALKSanet;
+  font-size: 14px;
+  color: #DC6C85;
+  background-color: #242526;
+  -webkit-box-shadow: 2px 2px 8px #7FD1D866;
+          box-shadow: 2px 2px 8px #7FD1D866;
+  padding: 5px 50px;
+  float: right;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  outline: 0 none;
+  margin-top: 2rem;
+}
+
+.web_password-submit-cancel:hover {
+  color: #fff;
+  background-color: #DC6C85;
+  text-decoration: none;
+}
+
+.web_password-submit-login {
+  font-family: ALKSanet;
+  font-size: 14px;
+  color: #7FD1D8;
+  background-color: #242526;
+  -webkit-box-shadow: 2px 2px 8px #7FD1D866;
+          box-shadow: 2px 2px 8px #7FD1D866;
+  padding: 5px 50px;
+  float: right;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  outline: 0 none;
+  margin-top: 2rem;
+}
+
+.web_password-submit-login:hover {
+  color: #fff;
+  background-color: #7FD1D8;
+  text-decoration: none;
+}
+
+.web_contact_us-box {
+  padding: 81px 0 0 0;
+}
+
+.web_contact_us-container {
+  max-width: 37% !important;
+}
+
+.web_contact_us-title {
+  color: #7FD1D8;
+  font-size: 36px;
+  font-family: ALKSanet;
+  padding-bottom: 1rem;
+}
+
+.web_contact_us input[type=text], .web_contact_us input[type=email], .web_contact_us textarea {
+  font-family: DejaVuSans;
+  width: 100%;
+  padding: 7px 20px;
+  margin: 13px 0;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  border-radius: 2rem;
+  color: #fff;
+  background-color: #242526;
+  -webkit-box-shadow: 2px 2px 8px #7FD1D866;
+          box-shadow: 2px 2px 8px #7FD1D866;
+  outline: 0 none;
+}
+
+.web_contact_us input[type=text]::-webkit-input-placeholder, .web_contact_us input[type=email]::-webkit-input-placeholder, .web_contact_us textarea::-webkit-input-placeholder {
+  color: white;
+  font-size: 16px;
+}
+
+.web_contact_us input[type=text]:-ms-input-placeholder, .web_contact_us input[type=email]:-ms-input-placeholder, .web_contact_us textarea:-ms-input-placeholder {
+  color: white;
+  font-size: 16px;
+}
+
+.web_contact_us input[type=text]::-ms-input-placeholder, .web_contact_us input[type=email]::-ms-input-placeholder, .web_contact_us textarea::-ms-input-placeholder {
+  color: white;
+  font-size: 16px;
+}
+
+.web_contact_us input[type=text]::placeholder, .web_contact_us input[type=email]::placeholder, .web_contact_us textarea::placeholder {
+  color: white;
+  font-size: 16px;
+}
+
+.web_contact_us-submit-send {
+  font-family: ALKSanet;
+  font-size: 14px;
+  color: #7FD1D8;
+  background-color: #242526;
+  -webkit-box-shadow: 2px 2px 8px #7FD1D866;
+          box-shadow: 2px 2px 8px #7FD1D866;
+  padding: 5px 35px;
+  float: right;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  outline: 0 none;
+  margin-top: 2rem;
+}
+
+.web_contact_us-submit-send:hover {
+  color: #fff;
+  background-color: #7FD1D8;
+  text-decoration: none;
+}
 /*# sourceMappingURL=main.css.map */
