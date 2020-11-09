@@ -16,8 +16,6 @@
         display: flex;
         justify-content: center;
         align-items: center; 
-        font-size: 16px;
-        font-family: ALKSanet;
         width:  25vw;
         height: 5.2vh;
         background: #242526;
@@ -30,6 +28,7 @@
     }
     &-top_btn_item {
         margin: 0;
+        font-family: ALKSanet;
     }
     &-cont {
         align-items: flex-end;

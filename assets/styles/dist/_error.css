@@ -1,11 +1,5 @@
-.absolute {
-  position: absolute;
-}
-
 .error {
-  position: absolute;
-  left: 27rem;
-  top: 12rem;
+  margin-top: 10rem;
 }
 
 .text-section {
@@ -21,6 +15,7 @@
 }
 
 .fly-error {
+  position: absolute;
   left: 62vh;
   bottom: 20vh;
   width: 60px;
@@ -39,8 +34,8 @@
   background: #242526;
   font-size: 14px;
   font-family: "ALKSanet";
+  text-decoration: none;
   cursor: pointer;
-  position: relative;
   left: 38rem;
   top: 36rem;
 }
@@ -49,4 +44,9 @@
   background: #7FD1D8;
   color: #fffF;
   cursor: pointer;
+}
+
+.link {
+  color: #7FD1D8;
+  text-decoration: none;
 }
