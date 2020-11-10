@@ -9165,8 +9165,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 16px;
-  font-family: ALKSanet;
   width: 25vw;
   height: 5.2vh;
   background: #242526;
@@ -9182,6 +9180,7 @@ body {
 
 .main_page-top_btn_item {
   margin: 0;
+  font-family: ALKSanet;
 }
 
 .main_page-cont {
@@ -9357,14 +9356,12 @@ body {
   color: white;
 }
 
-.absolute {
-  position: absolute;
+.footer {
+  margin-top: 5rem;
 }
 
 .error {
-  position: absolute;
-  left: 27rem;
-  top: 12rem;
+  margin-top: 10rem;
 }
 
 .text-section {
@@ -9380,6 +9377,7 @@ body {
 }
 
 .fly-error {
+  position: absolute;
   left: 62vh;
   bottom: 20vh;
   width: 60px;
@@ -9399,10 +9397,21 @@ body {
   background: #242526;
   font-size: 14px;
   font-family: 'ALKSanet';
+  text-decoration: none;
   cursor: pointer;
-  position: relative;
   left: 38rem;
   top: 36rem;
+}
+
+.error-button:focus {
+  -webkit-box-shadow: 2px 2px 8px #7FD1D8;
+          box-shadow: 2px 2px 8px #7FD1D8;
+  border-radius: 15px;
+  border-radius: 290486px;
+  padding-left: calc(1em + 0.25em);
+  padding-right: calc(1em + 0.25em);
+  color: #7FD1D8;
+  background: #242526;
 }
 
 .error-button:hover {
@@ -9533,10 +9542,6 @@ body {
           box-shadow: 2px 2px 8px #F8D24B;
 }
 
-.mt-3 {
-  margin-top: 3em !important;
-}
-
 .pupils {
   font-family: 'ALKSanet';
   font-size: 18px;
@@ -9592,6 +9597,19 @@ p {
 
 .form-group input:focus {
   background-color: transparent;
+  -webkit-box-shadow: 2px 2px 8px #7FD1D8;
+          box-shadow: 2px 2px 8px #7FD1D8;
+  border-radius: 15px;
+  border-radius: 290486px;
+  padding-left: calc(1em + 0.25em);
+  padding-right: calc(1em + 0.25em);
+  color: #7FD1D8;
+  background: #242526;
+  font-size: 14px;
+  font-family: 'ALKSanet';
+  cursor: pointer;
+  width: 709px;
+  height: 100px;
 }
 
 .search-input {
@@ -9649,6 +9667,34 @@ p {
   color: #C5CBCD;
   font-size: 14px;
   padding-left: 2rem;
+}
+
+.image:focus {
+  outline: transparent;
+}
+
+.dropdownmenu {
+  background-color: #242526;
+  -webkit-box-shadow: 2px 2px 8px #7FD1D8;
+          box-shadow: 2px 2px 8px #7FD1D8;
+  border-radius: 13px;
+  color: #7FD1D8;
+  width: 249px;
+  height: 273px;
+  padding-top: 1rem;
+  position: absolute;
+  -webkit-transform: translate3d(-50px, 94px, 0px);
+          transform: translate3d(-50px, 94px, 0px);
+  top: 0px;
+  left: 0px;
+  will-change: transform;
+}
+
+.items {
+  font-family: 'DejaVu Sans';
+  font-size: 16px;
+  color: #FFFF;
+  margin-top: 5px;
 }
 
 .web_auth-box {

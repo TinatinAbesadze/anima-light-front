@@ -1,3 +1,16 @@
+.pupils {
+  font-family: "ALKSanet";
+  font-size: 18px;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+p {
+  font-family: "DejaVu Sans";
+  margin-top: 1em;
+  color: #E3FDFF;
+}
+
 .input-style {
   box-shadow: 2px 2px 8px #7FD1D8;
   border-radius: 15px;
@@ -9,6 +22,30 @@
   font-size: 14px;
   font-family: "ALKSanet";
   cursor: pointer;
+  width: 709px;
+  height: 100px;
+}
+
+.form-group input::placeholder {
+  font-size: 14px;
+  color: #C5CBCD;
+  margin-left: 2rem;
+}
+
+.form-group input:focus {
+  background-color: transparent;
+  box-shadow: 2px 2px 8px #7FD1D8;
+  border-radius: 15px;
+  border-radius: 290486px;
+  padding-left: calc(1em + 0.25em);
+  padding-right: calc(1em + 0.25em);
+  color: #7FD1D8;
+  background: #242526;
+  font-size: 14px;
+  font-family: "ALKSanet";
+  cursor: pointer;
+  width: 709px;
+  height: 100px;
 }
 
 .search-input {
@@ -18,12 +55,60 @@
 
 .blue-mark {
   position: absolute;
-  right: 3rem;
+  right: 1rem;
   top: 0.4rem;
 }
 
 .search {
   position: absolute;
-  right: 5rem;
+  right: 3rem;
   top: 0.4rem;
+}
+
+.dots {
+  position: absolute;
+  width: 18px;
+  height: 4px;
+  top: 0.8rem;
+  color: #7FD1D8;
+}
+
+.pagination-numbers {
+  margin-left: 2rem;
+  color: #FFFF;
+  font-size: 11px;
+  font-family: "ALKSanet";
+  list-style: none;
+}
+
+.form-group input::placeholder {
+  color: #C5CBCD;
+  font-size: 14px;
+  padding-left: 2rem;
+}
+
+.image:focus {
+  outline: transparent;
+}
+
+.dropdownmenu {
+  background-color: #242526;
+  box-shadow: 2px 2px 8px #7FD1D8;
+  border-radius: 13px;
+  color: #7FD1D8;
+  width: 249px;
+  height: 273px;
+  padding-top: 1rem;
+  position: absolute;
+  transform: translate3d(-50px, 94px, 0px);
+  top: 0px;
+  left: 0px;
+  will-change: transform;
+}
+
+.items {
+  font-family: "DejaVu Sans";
+  font-size: 16px;
+  color: #FFFF;
+  margin-top: 5px;
 }
