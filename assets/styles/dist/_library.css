@@ -86,3 +86,29 @@ p {
   font-size: 14px;
   padding-left: 2rem;
 }
+
+.image:focus {
+  outline: transparent;
+}
+
+.dropdownmenu {
+  background-color: #242526;
+  box-shadow: 2px 2px 8px #7FD1D8;
+  border-radius: 13px;
+  color: #7FD1D8;
+  width: 249px;
+  height: 273px;
+  padding-top: 1rem;
+  position: absolute;
+  transform: translate3d(-50px, 94px, 0px);
+  top: 0px;
+  left: 0px;
+  will-change: transform;
+}
+
+.items {
+  font-family: "DejaVu Sans";
+  font-size: 16px;
+  color: #FFFF;
+  margin-top: 5px;
+}
