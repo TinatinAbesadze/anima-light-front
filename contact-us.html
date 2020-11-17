@@ -83,7 +83,9 @@
                     <div class="container web_contact_us">
                         <input class="f-name" type="text" id="fname" name="firstname" placeholder="სახელი">
                         <input type="email" id="email" name="email" placeholder="ელ.ფოსტა" required>
+                        <div class="mail-error error-style">ელ.ფოსტა არასწორია</div>
                         <textarea id="subject" name="subject" placeholder="შეტყობინება" style="height:172px"></textarea>
+                        <div class="web_contact_us-global-error global-error-style">გლობალური ერორი</div>
                         <input class="web_contact_us-submit-send" type="submit" value="გაგზავნა">
                     </div>
                 </form>
@@ -117,6 +119,11 @@
 
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
+  <script>
+     $(".web_contact_us-submit-send").click(function () {
+            $(".mail-error").css("display", "inherit");
+      });
+  </script>
 </body>
 
 </html>

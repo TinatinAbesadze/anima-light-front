@@ -77,8 +77,6 @@
                 <div class="d-flex">
                     <p class="web_auth-title m-auto">
                         <span class="web_auth-login web_auth-active">შესვლა</span>
-                        <span class="italic_line web_auth-active">/</span>
-                        <span class="web_auth-registration">რეგისტრაცია</span> 
                     </p>
                 </div>
                 <form class="log-in" action="/action_page.php" method="post">
@@ -87,23 +85,9 @@
                         <div class="mail-error error-style">ელ.ფოსტა ან პაროლი არასწორია</div>
                         <input type="password" minlength="8" placeholder="პაროლი" name="psw" required>
                         <div class="web_auth-forgot_psw"><a href="#">დაგავიწყდა პაროლი?</a></div>
+                        <div class="login-global-error global-error-style">გლობალური ერორი</div>
                         <input class="submit-login" type="submit" value="შესვლა">
                     </div>
-                </form>
-                <form id="registration" class="registration" action="">
-                    <input type="email" id="email" name="email" placeholder="ელ.ფოსტა" required>
-                    <div class="mail-error-used error-style">ელ.ფოსტა გამოყენებულია</div>
-                    <input type="text" id="user-name" name="Username" placeholder="მომხმარებლის სახელი">
-                    <div class="name-error-used error-style">მომხმარებლის სახელი გამოყენებულია</div>
-                    <input class="f-name" type="text" id="fname" name="firstname" placeholder="სახელი">
-                    <div class="name-error error-style">სავალდებულო ველი</div>
-                    <input class="l-name" type="text" id="lname" name="lastname" placeholder="გვარი">
-                    <div class="surename-error error-style">სავალდებულო ველი</div>
-                    <input class="register-password" type="password" minlength="6" placeholder="პაროლი" name="psw" required>
-                    <div class="psw-error error-style">მინიმუმ 6 სიმბოლო</div>
-                    <input class="register-password-repeat" type="password"  placeholder="გაიმეორე პაროლი" name="psw" required>
-                    <div class="psw-error-match error-style">პაროლი არ ემთხვევა</div>
-                    <input class="submit-registration"type="submit" value="რეგისტრაცია">
                 </form>
             </div>
         </div>
@@ -136,29 +120,29 @@
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
   <script>
-        $(".submit-registration").click(function () {
-            if ($(".register-password").val().length < 6) {
-                $(".psw-error").css("display", "inherit");
-            } else {
-                $(".psw-error").css("display", "none");
-            }
-            if ($(".register-password").val() !== $(".register-password-repeat").val() || $(".register-password-repeat").val().length < 6) {
-                $(".psw-error-match").css("display", "inherit");
-            }
-            else {
-                $(".psw-error-match").css("display", "none");
-            }
-            if ($(".f-name").val().length == 0) {
-                $(".name-error").css("display", "inherit");
-            } else {
-                $(".name-error").css("display", "none");
-            }
-            if ($(".l-name").val().length < 1) {
-                $(".surename-error").css("display", "inherit");
-            } else {
-                $(".surename-error").css("display", "none");
-            }
-        });
+        // $(".submit-registration").click(function () {
+        //     if ($(".register-password").val().length < 6) {
+        //         $(".psw-error").css("display", "inherit");
+        //     } else {
+        //         $(".psw-error").css("display", "none");
+        //     }
+        //     if ($(".register-password").val() !== $(".register-password-repeat").val() || $(".register-password-repeat").val().length < 6) {
+        //         $(".psw-error-match").css("display", "inherit");
+        //     }
+        //     else {
+        //         $(".psw-error-match").css("display", "none");
+        //     }
+        //     if ($(".f-name").val().length == 0) {
+        //         $(".name-error").css("display", "inherit");
+        //     } else {
+        //         $(".name-error").css("display", "none");
+        //     }
+        //     if ($(".l-name").val().length < 1) {
+        //         $(".surename-error").css("display", "inherit");
+        //     } else {
+        //         $(".surename-error").css("display", "none");
+        //     }
+        // });
 
 
         $(".submit-login").click(function () {
@@ -166,27 +150,27 @@
         });
 
 
-        $(".web_auth-login").click(function () {
-            if ($(".web_auth-login").hasClass("web_auth-active")) {
-            }
-            else {
-                $(".registration").css("display", "none");
-                $(".log-in").css("display", "inherit");
-                $(".web_auth-registration").removeClass("web_auth-active");
-                $(".web_auth-login").addClass("web_auth-active");
+        // $(".web_auth-login").click(function () {
+        //     if ($(".web_auth-login").hasClass("web_auth-active")) {
+        //     }
+        //     else {
+        //         $(".registration").css("display", "none");
+        //         $(".log-in").css("display", "inherit");
+        //         $(".web_auth-registration").removeClass("web_auth-active");
+        //         $(".web_auth-login").addClass("web_auth-active");
 
-            }
-        });
-        $(".web_auth-registration").click(function () {
-            if ($(".web_auth-registration").hasClass("active")) {
-            }
-            else {
-                $(".log-in").css("display", "none");
-                $(".registration").css("display", "inherit");
-                $(".web_auth-login").removeClass("web_auth-active");
-                $(".web_auth-registration").addClass("web_auth-active");
-            }
-        });
+        //     }
+        // });
+        // $(".web_auth-registration").click(function () {
+        //     if ($(".web_auth-registration").hasClass("active")) {
+        //     }
+        //     else {
+        //         $(".log-in").css("display", "none");
+        //         $(".registration").css("display", "inherit");
+        //         $(".web_auth-login").removeClass("web_auth-active");
+        //         $(".web_auth-registration").addClass("web_auth-active");
+        //     }
+        // });
 </script>
 </body>
 

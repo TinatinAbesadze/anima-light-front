@@ -9790,16 +9790,18 @@ p {
   display: none;
 }
 
+.global-error-style {
+  font-size: 15px;
+  color: #DC6C85;
+  margin-left: 1.2rem;
+}
+
 .error-style {
   font-size: 12px;
   color: #DC6C85;
   margin-left: 1.2rem;
   margin-top: -6px;
   margin-bottom: 6px;
-}
-
-.registration {
-  display: none;
 }
 
 .registration input[type=email], .registration input[type=text], .registration input[type=password] {

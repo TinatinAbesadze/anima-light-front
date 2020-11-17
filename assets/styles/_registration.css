@@ -1,0 +1,117 @@
+.web_auth-box {
+  padding: 52px 0 0 0;
+}
+.web_auth-container {
+  max-width: 37% !important;
+}
+.web_auth-title {
+  font-size: 24px;
+  font-family: ALKSanet;
+  padding-bottom: 1rem;
+}
+.web_auth-active {
+  color: #7FD1D8;
+}
+.web_auth-login, .web_auth-registration {
+  cursor: pointer;
+}
+.web_auth input[type=email], .web_auth input[type=password] {
+  font-family: DejaVuSans;
+  width: 100%;
+  padding: 7px 20px;
+  margin: 13px 0;
+  display: inline-block;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 2rem;
+  color: #fff;
+  background-color: #242526;
+  box-shadow: 2px 2px 8px #7FD1D866;
+  outline: 0 none;
+}
+.web_auth input[type=email]::placeholder, .web_auth input[type=password]::placeholder {
+  color: white;
+  font-size: 16px;
+}
+.web_auth-forgot_psw a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  font-family: DejaVuSans;
+  margin-left: 1.2rem;
+}
+.web_auth input[type=submit] {
+  font-family: ALKSanet;
+  font-size: 14px;
+  color: #7FD1D8;
+  background-color: #242526;
+  box-shadow: 2px 2px 8px #7FD1D866;
+  padding: 5px 35px;
+  float: right;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  outline: 0 none;
+  margin-top: 2rem;
+}
+.web_auth input[type=submit]:hover {
+  color: #fff;
+  background-color: #7FD1D8;
+  text-decoration: none;
+}
+
+.mail-error, .mail-error-used, .name-error-used, .name-error, .surename-error, .psw-error, .psw-error-match {
+  display: none;
+}
+
+.global-error-style {
+  font-size: 15px;
+  color: #DC6C85;
+  margin-left: 1.2rem;
+}
+
+.error-style {
+  font-size: 12px;
+  color: #DC6C85;
+  margin-left: 1.2rem;
+  margin-top: -6px;
+  margin-bottom: 6px;
+}
+
+.registration input[type=email], .registration input[type=text], .registration input[type=password] {
+  font-family: DejaVuSans;
+  width: 100%;
+  padding: 7px 20px;
+  margin: 13px 0;
+  display: inline-block;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 2rem;
+  color: #fff;
+  background-color: #242526;
+  box-shadow: 2px 2px 8px #7FD1D866;
+  outline: 0 none;
+}
+.registration input[type=email]::placeholder, .registration input[type=text]::placeholder, .registration input[type=password]::placeholder {
+  color: white;
+  font-size: 16px;
+}
+.registration input[type=submit] {
+  font-family: ALKSanet;
+  font-size: 14px;
+  color: #7FD1D8;
+  background-color: #242526;
+  box-shadow: 2px 2px 8px #7FD1D866;
+  padding: 5px 35px;
+  float: right;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  outline: 0 none;
+  margin-top: 2rem;
+}
+.registration input[type=submit]:hover {
+  color: #fff;
+  background-color: #7FD1D8;
+  text-decoration: none;
+}

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/styles/main.css">
+  <title>Anima Light</title>
+</head>
+
+<body>
+
+
+  <header>
+    <div class="container">
+      <div class="web_header">
+        <a href="index.html">
+          <img src="assets/images/logo.svg" alt="logo" class="web_logo">
+        </a>
+        <nav class="web_navigation">
+          <ul class="web_navigation-list">
+            <li class="web_navigation-item">
+              <a href="about-us.html" class="web_navigation-item-link">
+                ჩვენ შესახებ
+              </a>
+            </li>
+            <li class="web_navigation-item">
+              <a href="" class="web_navigation-item-link">
+                ბიბლიოთეკა
+              </a>
+            </li>
+            <li class="web_navigation-item">
+              <a href="" class="web_navigation-item-link">
+                კონტაქტი
+              </a>
+            </li>
+            <li class="web_navigation-item">
+              <a href="" class="web_navigation-item-link">
+                <svg class="logIn-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60.275"
+                  height="60" viewBox="0 0 60.275 60">
+                  <defs>
+                    <filter id="Path_12243" x="0" y="0" width="60.275" height="60" filterUnits="userSpaceOnUse">
+                      <feOffset dy="3" input="SourceAlpha" />
+                      <feGaussianBlur stdDeviation="3" result="blur" />
+                      <feFlood flood-color="#7fd1d8" />
+                      <feComposite operator="in" in2="blur" />
+                      <feComposite in="SourceGraphic" />
+                    </filter>
+                  </defs>
+                  <g id="Component_53_4" data-name="Component 53 – 4" transform="translate(9 6)">
+                    <g id="Group_7412" data-name="Group 7412">
+                      <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Path_12243)">
+                        <path class="logIn-icon-bg" id="Path_12243-2" data-name="Path 12243"
+                          d="M85.327,7.868s3.851-21.249,21.819-21.249,23.815,19.252,17.968,30.376S102.439,31.683,92.6,25.837,85.327,7.868,85.327,7.868Z"
+                          transform="translate(-76.02 19.38)" fill="#242526" />
+                      </g>
+                    </g>
+                    <g id="Group_8725" data-name="Group 8725" transform="translate(9 9)">
+                      <path class="logIn-icon-content" id="Path_29024" data-name="Path 29024"
+                        d="M11,7,9.6,8.4,12.2,11H2v2H12.2L9.6,15.6,11,17l5-5Zm9,12H12v2h8a2.006,2.006,0,0,0,2-2V5a2.006,2.006,0,0,0-2-2H12V5h8Z"
+                        fill="#6cc" />
+                    </g>
+                  </g>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="web_auth-box web__main">
+    <div class="container">
+        <div class="row">
+            <div class="col-5 web_auth-container m-auto">
+                <div class="d-flex">
+                    <p class="web_auth-title m-auto">
+                      <span class="web_auth-registration web_auth-active">რეგისტრაცია</span> 
+                    </p>
+                </div>
+                <form id="registration" class="registration" action="">
+                    <input type="email" id="email" name="email" placeholder="ელ.ფოსტა" required>
+                    <div class="mail-error-used error-style">ელ.ფოსტა გამოყენებულია</div>
+                    <input type="text" id="user-name" name="Username" placeholder="მომხმარებლის სახელი">
+                    <div class="name-error-used error-style">მომხმარებლის სახელი გამოყენებულია</div>
+                    <input class="f-name" type="text" id="fname" name="firstname" placeholder="სახელი">
+                    <div class="name-error error-style">სავალდებულო ველი</div>
+                    <input class="l-name" type="text" id="lname" name="lastname" placeholder="გვარი">
+                    <div class="surename-error error-style">სავალდებულო ველი</div>
+                    <input class="register-password" type="password" minlength="6" placeholder="პაროლი" name="psw" required>
+                    <div class="psw-error error-style">მინიმუმ 6 სიმბოლო</div>
+                    <input class="register-password-repeat" type="password"  placeholder="გაიმეორე პაროლი" name="psw" required>
+                    <div class="psw-error-match error-style">პაროლი არ ემთხვევა</div>
+                    <div class="registration-global-error global-error-style">გლობალური ერორი</div>
+                    <input class="submit-registration"type="submit" value="რეგისტრაცია">
+                </form>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="web__footer">
+        <a href="Tel:+9950322222343" class="web__footer-text">+995 0322 222 343</a>
+        <div class="d-flex align-items-center">
+          <a href="#" class="web__footer-icon-link">
+            <div class="web__footer-icon">
+              <span class="fa fa-facebook"></span>
+            </div>
+          </a>
+          <a href="#" class="web__footer-icon-link">
+            <div class="web__footer-icon">
+              <span class="fa fa-youtube-play"></span>
+            </div>
+          </a>
+        </div>
+        <a href="Lopremipsum@gmail.com" class="web__footer-text">Lopremipsum@gmail.com</a>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script>
+        $(".submit-registration").click(function () {
+            if ($(".register-password").val().length < 6) {
+                $(".psw-error").css("display", "inherit");
+            } else {
+                $(".psw-error").css("display", "none");
+            }
+            if ($(".register-password").val() !== $(".register-password-repeat").val() || $(".register-password-repeat").val().length < 6) {
+                $(".psw-error-match").css("display", "inherit");
+            }
+            else {
+                $(".psw-error-match").css("display", "none");
+            }
+            if ($(".f-name").val().length == 0) {
+                $(".name-error").css("display", "inherit");
+            } else {
+                $(".name-error").css("display", "none");
+            }
+            if ($(".l-name").val().length < 1) {
+                $(".surename-error").css("display", "inherit");
+            } else {
+                $(".surename-error").css("display", "none");
+            }
+        });
+
+
+        // $(".submit-login").click(function () {
+        //     $(".mail-error").css("display", "inherit");
+        // });
+
+
+        // $(".web_auth-login").click(function () {
+        //     if ($(".web_auth-login").hasClass("web_auth-active")) {
+        //     }
+        //     else {
+        //         $(".registration").css("display", "none");
+        //         $(".log-in").css("display", "inherit");
+        //         $(".web_auth-registration").removeClass("web_auth-active");
+        //         $(".web_auth-login").addClass("web_auth-active");
+
+        //     }
+        // });
+        // $(".web_auth-registration").click(function () {
+        //     if ($(".web_auth-registration").hasClass("active")) {
+        //     }
+        //     else {
+        //         $(".log-in").css("display", "none");
+        //         $(".registration").css("display", "inherit");
+        //         $(".web_auth-login").removeClass("web_auth-active");
+        //         $(".web_auth-registration").addClass("web_auth-active");
+        //     }
+        // });
+</script>
+</body>
+
+</html>

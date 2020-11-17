@@ -66,7 +66,14 @@
 .mail-error,.mail-error-used,.name-error-used,.name-error,.surename-error,.psw-error,.psw-error-match{
     display: none;
 }
-
+.global-error-style {
+    font-size: 15px;
+    color: #DC6C85;
+    margin-left: 1.2rem;
+    // margin-top: -6px;
+    // float: right;
+    // margin-bottom: 6px;
+}
 .error-style{
     font-size: 12px;
     color: #DC6C85;
@@ -75,7 +82,6 @@
     margin-bottom: 6px;
 }
 .registration{
-    display: none;
     input[type=email], input[type=text], input[type=password] {
         font-family: DejaVuSans;
         width: 100%;
