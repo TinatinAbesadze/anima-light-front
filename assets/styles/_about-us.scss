@@ -3,14 +3,12 @@
   font-size:18px;
   position:relative; 
   right:5em;
+  p{
+    font-family:'DejaVu Sans';
+    margin-top: 1em; 
+    color:#E3FDFF; 
+  }
 }
-
-.about-project p{
-  font-family:'DejaVu Sans';
-  margin-top: 1em; 
-  color:#E3FDFF;
-}
-
 .video{
     position:relative;
   }
@@ -23,6 +21,9 @@
 
 .link{
   color: #7FD1D8;
+  &:hover{
+    text-decoration:none;
+  }
 }
 .tutorial{
     position: absolute;
@@ -66,32 +67,10 @@
 .speak{
   margin-top:1.5em;
 }
-// .speak-button{
-//   width: 156px;
-//   height: 34px;
-//   box-shadow: 2px 2px 8px #7FD1D8;
-//   border-radius: 15px;
-//   border-radius: 290486px;
-//   padding-left: calc(1em + 0.25em);
-//   padding-right: calc(1em + 0.25em);
-//   color:#7FD1D8;
-//   background: #242526;
-//   font-size:14px;
-//   font-family:'ALKSanet';
-//   cursor:pointer;
-// }
-
-// .speak-button:hover{
-//   background:#7FD1D8;
-//   color: #fffF;
-//   cursor:pointer;
-// }
-
 .box-text{
   display:block;
   color:white;
 }
-
 .footer{
   margin-top: 5rem;
 }
