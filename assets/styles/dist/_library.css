@@ -112,3 +112,9 @@ p {
   color: #FFFF;
   margin-top: 5px;
 }
+
+.dropdown-btn:hover {
+  background: #7FD1D8;
+  color: #fffF;
+  cursor: pointer;
+}
