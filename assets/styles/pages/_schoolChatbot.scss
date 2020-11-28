@@ -57,9 +57,7 @@
     &_btn-dark{
         &-cont{
             display: flex;
-            @media #{$breakpoint-md}{
-                flex-direction: column;
-            }
+            margin: auto;
         }
         background-color: $component-color5;
         border-radius: 20px;
@@ -76,7 +74,10 @@
         margin: 20px;
         transition: .3s;
         @media #{$breakpoint-md}{
-            margin: 10px 0;
+            margin: 10px;
+        }
+        @media #{$breakpoint-xxs}{
+            width: 130px;
         }
         &:hover{
             background-color: $white;

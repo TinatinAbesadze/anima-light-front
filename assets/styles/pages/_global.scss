@@ -5,7 +5,4 @@ body{
 
 .web__main{
     min-height: 100vh;
-    @media #{$breakpoint-md}{
-        min-height: auto;
-    }
 }

@@ -9283,12 +9283,6 @@ body {
   min-height: 100vh;
 }
 
-@media only screen and (max-width: 768px) {
-  .web__main {
-    min-height: auto;
-  }
-}
-
 .main_page-top_info_cont {
   font-size: 16px;
   font-family: DejaVuSans;
@@ -9675,20 +9669,18 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-@media only screen and (max-width: 768px) {
-  .schoolChatbot_section_btn-dark-cont {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
+  margin: auto;
 }
 
 @media only screen and (max-width: 768px) {
   .schoolChatbot_section_btn-dark {
-    margin: 10px 0;
+    margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .schoolChatbot_section_btn-dark {
+    width: 130px;
   }
 }
 
