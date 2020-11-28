@@ -1,67 +1,167 @@
-.web{
-    &_header{
+.web {
+    &_header {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 20px 0;
+        @media #{$breakpoint-md} {
+            position: relative;
+            height: 100px;
+        }
     }
-    &_logo{
-        max-height: 54px;
-        height: 7vh;
+    &_logo {
+        height: 54px;
+        @media #{$breakpoint-md} {
+            height: 40px;
+        }
+        &-link {
+            @media #{$breakpoint-md} {
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
     }
-    &_navigation{
-        &-list{
+    &_navigation {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        @media #{$breakpoint-md} {
+            width: auto;
+            position: absolute;
+            left: 30px;
+            top: 60px;
+            box-shadow: 2px 2px 8px $component-color11;
+            background: $component-color10;
+            padding: 10px;
+            border-radius: 10px;
+            opacity: 0;
+            transition: all .4s;
+            z-index: 100;
+            &.active {
+                opacity: 1;
+            }
+        }
+        &-list {
             display: flex;
             align-items: center;
             margin: 0;
             padding: 0;
+            @media #{$breakpoint-md} {
+                flex-direction: column;
+                align-items: flex-start;
+            }
         }
-        &-item{
+        &-item {
             list-style-type: none;
             margin-right: 80px;
-            &:last-child{
+            @media #{$breakpoint-lg} {
+                margin-right: 30px;
+            }
+            @media #{$breakpoint-md} {
                 margin-right: 0;
             }
-            @media #{$breakpoint-md}{
-                margin-right: 10px;
+            &.logIn-item {
+                margin-right: 0;
+                @media #{$breakpoint-md} {
+                    position: absolute;
+                    right: 0;
+                }
             }
-            &-link{
+            &-link {
                 text-decoration: none;
                 color: $white;
                 font-size: 16px;
                 font-family: $ALKSanetfont;
-                transition: all .3s;
+                transition: all 0.3s;
                 white-space: nowrap;
-                @media #{$breakpoint-md}{
+                @media #{$breakpoint-md} {
                     font-size: 12px;
                 }
-                &.active{
+                &.active {
                     color: $component-color1;
                 }
-                &:hover{
+                &:hover {
                     text-decoration: none;
                     color: $component-color1;
                 }
-                .logIn-icon{
+                .logIn-icon {
                     width: 42px;
                     height: 42px;
-                    &-bg{
-                        transition: .3s;
+                    &-bg {
+                        transition: 0.3s;
                     }
-                    &-content{
-                        transition: .3s;
+                    &-content {
+                        transition: 0.3s;
                     }
-                    &:hover{
-                        transition: .3s;
-                        .logIn-icon-bg{
+                    &:hover {
+                        transition: 0.3s;
+                        .logIn-icon-bg {
                             fill: $component-color1;
                         }
-                        .logIn-icon-content{
+                        .logIn-icon-content {
                             fill: $white;
                         }
                     }
                 }
             }
         }
+    }
+}
+
+.burger {
+    position: absolute;
+    background: $component-color9;
+    width: 100%;
+    height: 1.5px;
+    top: 50%;
+    right: 0px;
+    margin-top: -5px;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    &-menu {
+        position: relative;
+        width: 18px;
+        cursor: pointer;
+        display: none;
+        @media #{$breakpoint-md} {
+            display: block;
+        }
+        &.menu-on .burger::before {
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+            top: 0px;
+        }
+        &.menu-on .burger {
+            background: rgba($color: $component-color9, $alpha: 0);
+        }
+        &.menu-on .burger::after {
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+            bottom: 0px;
+        }
+    }
+    &::before {
+        position: absolute;
+        background: $component-color9;
+        width: 18px;
+        height: 1.5px;
+        top: 5px;
+        content: "";
+        display: block;
+        transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+    }
+    &::after {
+        position: absolute;
+        background: $component-color9;
+        width: 18px;
+        height: 1.5px;
+        bottom: 5px;
+        content: "";
+        display: block;
+        transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
     }
 }
