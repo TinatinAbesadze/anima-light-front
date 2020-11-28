@@ -23,12 +23,18 @@
         font-family: $ALKSanetfont;
         font-size: 18px;
         margin-bottom: 15px;
+        @media #{$breakpoint-md}{
+            text-align: center;
+        }
     }
     &-text{
         color: $component-color3;
         font-size: 16px;
         font-family: $DejaVuSansfont;
         margin-bottom: 15px;
+        @media #{$breakpoint-md}{
+            margin-bottom: 25px;
+        }
         &-delete{
             color: $white;
             font-size: 16px;

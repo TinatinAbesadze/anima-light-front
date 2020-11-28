@@ -9283,6 +9283,12 @@ body {
   min-height: 100vh;
 }
 
+@media only screen and (max-width: 768px) {
+  .web__main {
+    min-height: auto;
+  }
+}
+
 .main_page-top_info_cont {
   font-size: 16px;
   font-family: DejaVuSans;
@@ -9599,11 +9605,23 @@ body {
   margin-bottom: 15px;
 }
 
+@media only screen and (max-width: 768px) {
+  .schoolChatbot_section-title {
+    text-align: center;
+  }
+}
+
 .schoolChatbot_section-text {
   color: #E3FDFF;
   font-size: 16px;
   font-family: "DejaVuSans";
   margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .schoolChatbot_section-text {
+    margin-bottom: 25px;
+  }
 }
 
 .schoolChatbot_section-text-delete {
