@@ -9607,8 +9607,14 @@ p {
 
 .search {
   position: absolute;
-  right: 3rem;
+  background: transparent;
+  border-style: none;
+  right: 2.7rem;
   top: 0.4rem;
+}
+
+.search:focus {
+  outline: none;
 }
 
 .btn {
@@ -9631,6 +9637,10 @@ p {
   -webkit-box-shadow: 2px 2px 8px #7FD1D8;
           box-shadow: 2px 2px 8px #7FD1D8;
   color: #5a8488;
+}
+
+.margin {
+  margin-top: 120px;
 }
 
 .speak-button {
@@ -9733,6 +9743,10 @@ p {
   font-size: 16px;
   color: #FFFF;
   margin-top: 5px;
+}
+
+.active {
+  color: #7FD1D8;
 }
 
 .web_auth-box {
