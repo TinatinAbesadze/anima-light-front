@@ -58,7 +58,7 @@
 .main_page-nature-img {
   width: 16vw;
   height: 64.16vh;
-  margin: auto;
+  margin: 0 15px;
 }
 .main_page-comp-science-img {
   width: 25vw;
@@ -76,7 +76,7 @@
   justify-content: center;
   align-items: center;
   font-family: ALKSanet;
-  width: 11.4vw;
+  width: 12.4vw;
   height: 5.2vh;
   background: #242526;
   color: #7fd1d8 !important;
@@ -92,6 +92,21 @@
   box-shadow: 2px 2px 8px rgba(248, 210, 69, 0.4);
 }
 
+@media only screen and (max-width: 990.98px) {
+  .main_page-cont {
+    margin-left: 2vh;
+  }
+  .main_page-top_btn_cont {
+    margin-bottom: 0;
+  }
+  .main_page-btn_cont {
+    margin-top: 0;
+  }
+  .main_page-btn_item {
+    width: 15.4vw;
+    text-align: center;
+  }
+}
 @media only screen and (max-width: 767.98px) {
   .main_page-header-content {
     display: block;
