@@ -115,3 +115,9 @@
   background-color: #7FD1D8;
   text-decoration: none;
 }
+
+@media only screen and (max-width: 767.98px) {
+  .web_auth-container {
+    max-width: 100% !important;
+  }
+}

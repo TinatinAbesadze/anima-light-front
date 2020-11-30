@@ -49,3 +49,13 @@
         text-decoration: none;
     }
 }
+@media only screen and (max-width: 1190.98px){
+    .web_contact_us-container {
+        max-width: 100% !important;
+    }
+}
+@media only screen and (max-width: 400px){
+    .web_contact_us-title{
+        font-size: 26px;
+    }
+}
