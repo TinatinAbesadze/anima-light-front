@@ -1,10 +1,5 @@
 .error {
-  margin-top: 10rem;
-}
-
-.text-section {
-  top: 60vh;
-  left: 60vh;
+  margin-top: 3rem;
 }
 
 .error-subtitle {
@@ -16,8 +11,7 @@
 
 .fly-error {
   position: absolute;
-  left: 62vh;
-  bottom: 20vh;
+  bottom: 1vh;
   width: 60px;
   height: 52px;
 }
@@ -36,8 +30,8 @@
   font-family: "ALKSanet";
   text-decoration: none;
   cursor: pointer;
-  left: 38rem;
-  top: 36rem;
+  margin-top: 10vh;
+  margin-left: 20vh !important;
 }
 
 .error-button:focus {
@@ -54,4 +48,42 @@
   background: #7FD1D8;
   color: #fffF;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 767.98px) {
+  .error {
+    width: 342px;
+    height: 160px;
+  }
+
+  .error-subtitle {
+    width: 120%;
+    left: 3rem;
+  }
+
+  .fly-error {
+    bottom: 7rem;
+    right: 14rem;
+  }
+
+  .error-button {
+    margin-top: 8rem;
+  }
+}
+@media only screen and (max-width: 479.98px) {
+  .web_header {
+    width: 140%;
+  }
+
+  .fly-error {
+    right: 7rem;
+  }
+
+  .error-subtitle {
+    width: 200%;
+  }
+
+  .error-button {
+    margin-right: 10rem;
+  }
 }

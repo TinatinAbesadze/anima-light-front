@@ -4,7 +4,6 @@
   position: relative;
   right: 5em;
 }
-
 .about-project p {
   font-family: "DejaVu Sans";
   margin-top: 1em;
@@ -24,13 +23,8 @@
 .link {
   color: #7FD1D8;
 }
-
-.tutorial {
-  position: absolute;
-  right: 6rem;
-  font-family: "ALKSanet";
-  top: 22.5rem;
-  font-size: 12px;
+.link:hover {
+  text-decoration: none;
 }
 
 .chatbots {
@@ -52,6 +46,12 @@
   margin-right: 10px;
 }
 
+.tutorial {
+  font-size: 16px;
+  font-family: ALKSanet;
+  margin-left: 45rem;
+}
+
 .anima-button {
   width: 342px;
   height: 36px;
@@ -70,27 +70,6 @@
   margin-top: 1.5em;
 }
 
-.speak-button {
-  width: 156px;
-  height: 34px;
-  box-shadow: 2px 2px 8px #7FD1D8;
-  border-radius: 15px;
-  border-radius: 290486px;
-  padding-left: calc(1em + 0.25em);
-  padding-right: calc(1em + 0.25em);
-  color: #7FD1D8;
-  background: #242526;
-  font-size: 14px;
-  font-family: "ALKSanet";
-  cursor: pointer;
-}
-
-.speak-button:hover {
-  background: #7FD1D8;
-  color: #fffF;
-  cursor: pointer;
-}
-
 .box-text {
   display: block;
   color: white;
@@ -98,4 +77,82 @@
 
 .footer {
   margin-top: 5rem;
+}
+
+@media only screen and (max-width: 990.98px) {
+  .about-project {
+    right: 0;
+  }
+
+  .link {
+    color: #FFF;
+  }
+
+  .anima-button {
+    width: 50%;
+    margin: 0 15px 3rem 15px;
+    margin-top: 8rem;
+    margin-left: 0 !important;
+    font-size: 12px;
+  }
+
+  .tutorial {
+    margin-left: 27rem;
+    margin-top: 2rem;
+  }
+
+  .for-margin {
+    margin-right: 25px;
+  }
+
+  .speak-button {
+    font-size: 12px !important;
+  }
+}
+@media only screen and (max-width: 767.98px) {
+  .about-project {
+    right: 0;
+  }
+
+  .link {
+    color: #FFF;
+  }
+
+  .anima-button {
+    width: 100%;
+    margin: 0 15px 3rem 15px;
+    margin-top: 8rem;
+    margin-left: 0 !important;
+    font-size: 12px;
+  }
+
+  .tutorial {
+    margin-left: 8rem;
+    margin-top: 2rem;
+  }
+}
+@media only screen and (max-width: 479.98px) {
+  .about-project {
+    font-size: 16px;
+    right: 0;
+  }
+
+  p {
+    font-size: 14px;
+    margin: 0 auto !important;
+  }
+
+  .link {
+    color: #FFF;
+    font-size: 16px;
+  }
+
+  .anima-button {
+    margin-top: 100px;
+  }
+
+  .tutorial {
+    margin-left: 8rem;
+    margin-top: 2rem;
+  }
 }

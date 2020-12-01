@@ -25,13 +25,7 @@
     text-decoration:none;
   }
 }
-.tutorial{
-    position: absolute;
-    right: 6rem;
-    font-family: 'ALKSanet';
-    top: 22.5rem;
-    font-size: 12px;
-}
+
 
 .chatbots{
   margin-top:2em; 
@@ -49,6 +43,11 @@
     margin-left: 10px;
     margin-right: 10px;
   }
+.tutorial{
+  font-size: 16px;
+    font-family: ALKSanet;
+    margin-left: 45rem;
+}
 
 .anima-button{
   width: 342px;
@@ -74,3 +73,79 @@
 .footer{
   margin-top: 5rem;
 }
+
+
+
+@media only screen and (max-width: 990.98px){
+  .about-project{
+    right:0;
+  }
+
+  .link{
+    color:#FFF;
+  }
+  .anima-button{
+    width: 50%;
+    margin: 0 15px 3rem 15px;
+    margin-top: 8rem;
+    margin-left: 0!important;
+    font-size: 12px;
+  } 
+  .tutorial{
+    margin-left:27rem;
+    margin-top: 2rem;
+  } 
+  
+  .for-margin{
+    margin-right:25px;
+  }
+  .speak-button{
+    font-size:12px !important;
+  }
+}
+
+@media only screen and (max-width: 767.98px){
+  .about-project{
+    right:0;
+  }
+
+  .link{
+    color:#FFF;
+  }
+  .anima-button{
+    width: 100%;
+    margin: 0 15px 3rem 15px;
+    margin-top: 8rem;
+    margin-left: 0!important;
+    font-size: 12px;
+  } 
+  .tutorial{
+    margin-left:8rem;
+    margin-top: 2rem;
+  } 
+}
+
+@media only screen and (max-width: 479.98px){
+ .about-project{
+  font-size: 16px;
+  right: 0;
+}
+ p {
+  font-size: 14px;
+  margin: 0 auto!important;
+ }
+ .link{
+  color: #FFF;
+  font-size: 16px;
+ }
+
+.anima-button{
+  margin-top: 100px;
+}
+
+.tutorial{
+  margin-left:8rem;
+  margin-top: 2rem;
+}
+ }
+

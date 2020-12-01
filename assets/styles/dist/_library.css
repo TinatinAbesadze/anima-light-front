@@ -61,16 +61,61 @@ p {
 
 .search {
   position: absolute;
-  right: 3rem;
+  background: transparent;
+  border-style: none;
+  right: 2.7rem;
   top: 0.4rem;
 }
 
-.dots {
-  position: absolute;
-  width: 18px;
-  height: 4px;
-  top: 0.8rem;
+.search:focus {
+  outline: none;
+}
+
+.btn {
+  margin-left: 50px;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.ball {
+  width: 140px;
+  height: 140px;
+  margin: auto;
+  object-fit: contain;
+  border-radius: 50%;
+  box-shadow: 2px 2px 8px #7FD1D8;
+  color: #5a8488;
+}
+
+.margin {
+  margin-top: 120px;
+}
+
+.speak-button {
+  width: 156px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: ALKSanet;
+  box-shadow: 2px 2px 8px rgba(127, 209, 216, 0.6);
+  border-radius: 5vh;
   color: #7FD1D8;
+  background: #242526;
+  transition: 0.3s;
+  line-height: 2vh;
+  font-size: 2vh;
+  font-family: "ALKSanet";
+  cursor: pointer;
+}
+.speak-button:hover {
+  background: #7FD1D8;
+  color: #fffF;
+  cursor: pointer;
+  text-decoration: none !important;
 }
 
 .pagination-numbers {
@@ -80,6 +125,17 @@ p {
   font-family: "ALKSanet";
   list-style: none;
 }
+.pagination-numbers:hover {
+  text-decoration: none;
+  color: #7FD1D8;
+}
+.pagination-numbers-dots {
+  position: absolute;
+  width: 18px;
+  height: 4px;
+  top: 0.8rem;
+  color: #7FD1D8;
+}
 
 .form-group input::placeholder {
   color: #C5CBCD;
@@ -87,34 +143,27 @@ p {
   padding-left: 2rem;
 }
 
-.image:focus {
-  outline: transparent;
-}
-
 .dropdownmenu {
   background-color: #242526;
   box-shadow: 2px 2px 8px #7FD1D8;
   border-radius: 13px;
   color: #7FD1D8;
-  width: 249px;
+  min-width: 249px;
   height: 273px;
   padding-top: 1rem;
   position: absolute;
-  transform: translate3d(-50px, 94px, 0px);
+  transform: translate3d(-50px, 94px, 0px) !important;
   top: 0px;
   left: 0px;
   will-change: transform;
 }
-
-.items {
+.dropdownmenu-items {
   font-family: "DejaVu Sans";
   font-size: 16px;
   color: #FFFF;
   margin-top: 5px;
 }
 
-.dropdown-btn:hover {
-  background: #7FD1D8;
-  color: #fffF;
-  cursor: pointer;
+.active {
+  color: #7FD1D8;
 }
