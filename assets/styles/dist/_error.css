@@ -5,7 +5,7 @@
 .error-subtitle {
   font-family: "DejaVu Sans";
   top: 2rem;
-  right: 1rem;
+  left: 2rem;
   position: relative;
 }
 
@@ -50,10 +50,35 @@
   cursor: pointer;
 }
 
+@media (min-width: 768px) and (max-width: 1190.98px) {
+  .error {
+    position: relative;
+    right: 2rem;
+    width: 342px;
+    height: 160px;
+  }
+
+  .error-subtitle {
+    font-size: 14px;
+    right: 0;
+  }
+
+  .fly-error {
+    position: relative;
+    bottom: 8rem;
+    right: 6rem;
+  }
+
+  .error-button {
+    margin-left: 5rem !important;
+  }
+}
 @media only screen and (max-width: 767.98px) {
   .error {
     width: 342px;
     height: 160px;
+    position: relative;
+    right: 3rem;
   }
 
   .error-subtitle {
@@ -67,7 +92,8 @@
   }
 
   .error-button {
-    margin-top: 8rem;
+    margin-top: 6rem;
+    margin-left: 5rem !important;
   }
 }
 @media only screen and (max-width: 479.98px) {
@@ -76,7 +102,9 @@
   }
 
   .fly-error {
-    right: 7rem;
+    right: 3rem;
+    position: relative;
+    bottom: 8rem;
   }
 
   .error-subtitle {
@@ -84,6 +112,10 @@
   }
 
   .error-button {
-    margin-right: 10rem;
+    margin-left: 6rem;
+  }
+
+  .error-button a {
+    font-size: 14px;
   }
 }

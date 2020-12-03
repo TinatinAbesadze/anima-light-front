@@ -169,3 +169,42 @@
     color:#7FD1D8;
 }
 
+
+@media (min-width:768px) and (max-width: 1190.98px){
+
+}
+
+@media (min-width:480px) and (max-width: 767.98px){
+
+}
+
+@media only screen and (max-width: 479.98px){
+  .wbheader{
+      width:140% !important;
+      
+  }
+  .wbfooter{
+      width:140% !important;
+  }
+  .blue-mark{
+    left: 7rem;
+  }
+  .search{
+    left: 9rem;
+  }
+  .input-style{
+      width:200%;
+  }
+  .form-group{
+    position: relative;
+    left: 2rem;
+  }
+  .text{
+      font-size:16px;
+  }
+
+  .drpdwn{
+      right:5rem;
+  }
+}
+

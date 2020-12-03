@@ -167,3 +167,38 @@ p {
 .active {
   color: #7FD1D8;
 }
+
+@media only screen and (max-width: 479.98px) {
+  .wbheader {
+    width: 140% !important;
+  }
+
+  .wbfooter {
+    width: 140% !important;
+  }
+
+  .blue-mark {
+    left: 7rem;
+  }
+
+  .search {
+    left: 9rem;
+  }
+
+  .input-style {
+    width: 200%;
+  }
+
+  .form-group {
+    position: relative;
+    left: 2rem;
+  }
+
+  .text {
+    font-size: 16px;
+  }
+
+  .drpdwn {
+    right: 5rem;
+  }
+}
