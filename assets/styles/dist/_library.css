@@ -55,7 +55,7 @@ p {
 
 .blue-mark {
   position: absolute;
-  right: 1rem;
+  right: 7rem;
   top: 0.4rem;
 }
 
@@ -63,7 +63,7 @@ p {
   position: absolute;
   background: transparent;
   border-style: none;
-  right: 2.7rem;
+  right: 8.8rem;
   top: 0.4rem;
 }
 
@@ -168,25 +168,85 @@ p {
   color: #7FD1D8;
 }
 
-@media only screen and (max-width: 479.98px) {
-  .wbheader {
-    width: 140% !important;
+.chatbot-box {
+  display: flex;
+}
+
+@media (min-width: 768px) and (max-width: 1190.98px) {
+  .input-style {
+    width: 110%;
   }
 
-  .wbfooter {
-    width: 140% !important;
-  }
-
-  .blue-mark {
-    left: 7rem;
+  .speak-button {
+    font-size: 14px;
   }
 
   .search {
-    left: 9rem;
+    right: 5.4rem;
+  }
+
+  .blue-mark {
+    right: 3.6rem;
+  }
+
+  .chatbot-box {
+    display: flex;
+  }
+
+  .mg-left {
+    margin-left: 25px;
+  }
+}
+@media (min-width: 480px) and (max-width: 767.98px) {
+  .wbheader {
+    width: 110% !important;
   }
 
   .input-style {
-    width: 200%;
+    width: 120%;
+  }
+
+  .btn {
+    margin-left: 0;
+  }
+
+  .blue-mark {
+    left: 13rem;
+  }
+
+  .search {
+    left: 15rem;
+  }
+
+  .chatbot-box {
+    display: block;
+    margin: 0 auto !important;
+    padding: 0;
+  }
+
+  .pgnation {
+    right: 5rem;
+  }
+}
+@media only screen and (max-width: 479.98px) {
+  .wbheader {
+    width: 110% !important;
+  }
+
+  .wbfooter {
+    width: 120% !important;
+  }
+
+  .blue-mark {
+    left: 10.5rem;
+  }
+
+  .search {
+    left: 12.5rem;
+  }
+
+  .input-style {
+    width: 150%;
   }
 
   .form-group {
@@ -199,6 +259,16 @@ p {
   }
 
   .drpdwn {
+    right: 5rem;
+  }
+
+  .chatbot-box {
+    display: block;
+    margin: 0 auto !important;
+    padding: 0;
+  }
+
+  .pgnation {
     right: 5rem;
   }
 }
