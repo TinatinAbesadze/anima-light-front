@@ -21,7 +21,7 @@
     &-video_title_item {
         font-size: 16px;
         font-family: ALKSanet;
-        text-align: end;
+        text-align: center;
     }
     &-top_btn_cont {
         display: flex;
@@ -130,6 +130,7 @@
         &-video_title_item {
             text-align: center;
             margin-bottom: 80px;
+            margin-top:2rem !important;
         }
         &-top_btn_cont {
             width:  100%;
@@ -174,6 +175,11 @@
         &-top_btn_cont {
             width:  100%;
             margin: 0 15px 1.5rem 15px;
+            margin-top:2rem !important;
         }
+    }
+    .main_page-comp-science-img {
+        width: 140%;
+        height: 269px;
     }
 }

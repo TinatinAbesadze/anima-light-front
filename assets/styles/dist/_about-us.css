@@ -2,7 +2,6 @@
   font-family: "ALKSanet";
   font-size: 18px;
   position: relative;
-  right: 5em;
 }
 .about-project p {
   font-family: "DejaVu Sans";
@@ -115,7 +114,7 @@
   }
 
   .for-margin {
-    margin-right: 25px;
+    margin-right: 30px;
   }
 
   .speak-button {
@@ -171,5 +170,10 @@
   .tutorial {
     margin-left: 8rem;
     margin-top: 2rem;
+  }
+
+  .for-margin {
+    margin-right: 50px;
+    margin-left: 0 !important;
   }
 }
