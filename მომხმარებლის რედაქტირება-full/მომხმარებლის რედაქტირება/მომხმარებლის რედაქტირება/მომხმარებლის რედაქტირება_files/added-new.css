@@ -1,0 +1,154 @@
+body {
+    background-color: #17191A;
+} 
+.figures img{
+    display: none;
+}
+.background-border{
+    background-color: transparent;
+    border: none;
+    display: block;
+    -webkit-box-align: inherit;
+    padding: 0;
+}
+.profile-menu {
+    margin-top: 104px;
+}
+.psw-reset-btn {
+    display: none;
+}
+.profile-menu-aside {
+    width: 277.2px;
+}
+.profile-menu-password {
+    width: 65%;
+}
+.profile-menu .profile-menu-aside ul a:nth-child(1),.profile-menu .profile-menu-aside ul a:nth-child(4) {
+    display: none;
+}
+
+/* form-ის სტილები */
+.password-reset {
+    align-items: start;
+}
+.password-reset input[type=password],.password-reset input[type=text],.profile-menu-aside ul a li {
+    font-family: DejaVuSans;
+    width: 55%;
+    padding: 7px 20px;
+    margin: 13px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 2rem;
+    color: #fff;
+    background-color: #242526;
+    box-shadow: 2px 2px 8px #7FD1D866;
+    outline: 0 none;
+    height: 36px;
+}
+.password-reset input[type=password]::placeholder,.password-reset input[type=text]::placeholder{
+    color: white;
+    font-size: 16px;
+}
+.password-reset-submit {
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+}
+.password-reset-submit .password-reset-login {
+    width: 45%;
+    height: 34px;
+    font-family: ALKSanet;
+    font-size: 14px;
+    color: #7FD1D8;
+    background-color: #242526;
+    box-shadow: 2px 2px 8px #7FD1D866;
+    /* padding: 5px 50px; */
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    outline: 0 none;
+    margin-top: 2rem;
+}
+.password-reset-submit .password-reset-login:hover {
+    color: #fff;
+    background-color: #7FD1D8;
+    text-decoration: none;
+}
+.password-reset-submit .password-reset-cancel {
+    width: 45%;
+    height: 34px;
+    font-family: ALKSanet;
+    font-size: 14px;
+    color: #DC6C85;
+    background-color: #242526;
+    box-shadow: 2px 2px 8px #7FD1D866;
+    /* padding: 5px 50px; */
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    outline: 0 none;
+    margin-top: 2rem;
+}
+.password-reset-submit .password-reset-cancel:hover {
+    color: #fff;
+    background-color: #DC6C85;
+    text-decoration: none;
+}
+  /* form-ის სტილების ბოლო */
+.active-page {
+    color: #fff!important;
+    background-color:#7FD1D8!important;
+}
+.profile-menu-aside ul a li {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    font-family: ALK Sanet;
+}
+
+@media only screen and (max-width: 1024px) {
+    .profile-menu-aside{
+        width: 35%;
+    }
+    .profile-menu-password {
+        width: 60%;
+    }
+    .password-reset input[type=password], .password-reset input[type=text], .password-reset-submit{
+        width: 80%;
+    }
+    .profile-menu-aside ul a li{
+        width: 100%;
+        height: inherit;
+    }
+}
+
+@media only screen and (max-width: 767.98px){
+    .profile-menu-aside ul a li{
+        background-color: #3A3B3C;
+    }
+    section.profile-menu {
+        display: block;
+    }
+    .background-border{
+        width: 75%;
+        margin: 0 auto;
+    }
+    .password-reset input[type=password], .password-reset input[type=text], .password-reset-submit {
+        width: 100%;
+    }
+    /* .background-border{
+        width: 100%;
+    } */
+    .profile-menu-aside {
+        margin: 40px auto 15px;
+    }
+    .profile-menu {
+        margin-top: 0;
+    }
+}
+@media only screen and (max-width: 479.98px){
+    .background-border{
+        width: 100%;
+    }
+}
