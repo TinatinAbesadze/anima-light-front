@@ -1,0 +1,355 @@
+#header {
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    min-width: 20px;
+}
+
+.mainsection {
+  margin-top: 0px;
+}
+
+#header::after {
+  content: "";
+}
+
+
+.contact-info {
+    padding: 50px;
+}
+
+
+.anima-nav {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    top: 0;
+}
+
+.anima-menu-list {
+  position: fixed;
+  background-color: #000000;
+  background-image: url(../svg/pluses.svg);
+  /* border: 1px solid red; */
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  text-align: center;
+  clip-path: circle(100px at 90% -30%);
+  -webkit-clip-path: circle(100px at 90% -30%);
+  transition: all 1s ease-out;
+  pointer-events: none;
+}
+
+.anima-menu-list li a {
+  font-size: 20px;
+}
+
+.anima-menu-list.open {
+  clip-path: circle(1000px at 100% -10%);
+  -webkit-clip-path: circle(1005px at 90% -9%);
+  pointer-events: all;
+}
+
+.anima-menu-link {
+  margin-top: 35px;
+  padding: 6px;
+  margin-bottom: 12px;
+}
+
+.anima-menu-link:first-of-type {
+    margin-top: 70px;
+}
+
+    .anima-menu-link:last-child {
+        margin-right: 35px;
+        margin-bottom: 70px;
+    }
+
+
+.line {
+  width: 30px;
+  height: 3px;
+  background-color: rgb(255, 255, 255);
+  margin: 5px;
+}
+
+.hamburger {
+    position: fixed;
+    cursor: pointer;
+    right: 20px;
+    top: 20px;
+    z-index: 99;
+}
+
+.hamburgeropen .line {
+  height: 5px;
+  background-color: #fff;
+}
+
+.hamburgeropen .line:nth-child(2) {
+  display: none;
+}
+
+.hamburgeropen .line:nth-child(1) {
+  -ms-transform: rotate(90deg);
+  transform: rotate(45deg);
+}
+
+.hamburgeropen .line:nth-child(3) {
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* </navbari>/////////////////////////////////////////////////////////////////////////// */
+
+/* <index>/////////////////////////////////////////////////////////////////// */
+.animaindex {
+  margin-top: 12%;
+}
+
+.hero-article h1 {
+  font-size: 40px;
+}
+
+
+
+
+.hero-article p {
+    width: 100%;
+}
+
+.close-video i {
+    font-size: 25px;
+}
+
+
+
+.footer-icons {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+.circle-figure-main {
+  width: 21%;
+  margin-top: -4%;
+  margin-right: 16%;
+}
+
+.figureotherrespo {
+  width: 20%;
+  margin-top: 4%;
+  margin-right: 16%;
+}
+
+.anima-pricing-title {
+  text-align: right;
+  font-size: 25px;
+  font-family: "PantonMtav3";
+  margin-bottom: 2.8vw;
+}
+
+.ShortDescription p {
+  font-size: 19px !important;
+}
+
+.ShortDescription {
+  width: 60%;
+}
+
+.anima-pricing-banner {
+  margin-top: 13px;
+  /* display: grid; */
+  width: 100%;
+  /* height: 110%; */
+}
+
+.anima-partners div {
+  display: contents;
+  justify-content: center;
+  height: 100%;
+}
+
+.anima-partners div a img {
+  padding: 10%;
+  justify-items: center;
+  margin-left: 5%;
+}
+
+.cube-figure {
+  width: 52vw;
+  position: absolute;
+  left: 10.2vw;
+  top: -16vh;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.PartnersTitle {
+  font-size: 28px;
+  margin-top: 7px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* about/////////////////////////////////// */
+.show-more {
+  display: block;
+}
+
+.anima-container {
+  width: 82vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.anima-shaman {
+  width: 87vw;
+  margin-top: 120px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+/* contact */
+.rounded-input {
+  width: 100%;
+  min-width: 350px;
+}
+
+.contact-info {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  box-sizing: border-box;
+  opacity: 0.9;
+}
+
+.shaman-text {
+  align-self: center;
+  /* width: 152%; */
+  margin-right: 19px;
+}
+
+.about-description {
+  width: 80%;
+}
+
+.pricing-placing p {
+  font-size: 13px;
+  font-size: 16px;
+}
+
+.partnersicon {
+  margin-left: 20% !important;
+  position: absolute;
+  display: flex;
+  display: none;
+}
+
+.partnerdelete {
+  margin-left: 10% !important;
+}
+
+.partnersiconmain {
+  position: relative;
+}
+
+.iconsAdd {
+  position: relative;
+}
+
+.profile-menu-aside {
+  width: 40%;
+  font-size: 15px;
+}
+
+.menu-names {
+  font-size: 20px;
+}
+
+
+.profile-menu-info {
+  width: 60%;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 3px;
+}
+
+.assists-title {
+  width: 84%;
+  margin: 5%;
+  text-align: center;
+  margin: auto;
+}
+
+    .assists-title h1 {
+        font-size: 25px;
+        line-height: 1.2;
+    }
+
+.assists-title h2 {
+  font-size: 20px;
+}
+
+.assists-info-box {
+  width: 86%;
+  margin: 2%;
+}
+
+.anima-partners-list {
+    
+    width: 85%;
+}
+    .assists-main {
+  width: 100%;
+}
+
+.assists-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 50%;
+}
+
+#footer .footer-center {
+    color: white;
+    display: block;
+}
+
+
+
+
+.anima-pricing-banner {
+    margin-bottom: 40px;
+}
+
+
+
+.circle-figure-main {
+    right: 0vw;
+}
+
+
+
+
+.anima-shaman:nth-child(odd) .shaman-text {
+    margin-left: 0px;
+}
+
+
+.text-justify {
+    text-align: left;
+}
